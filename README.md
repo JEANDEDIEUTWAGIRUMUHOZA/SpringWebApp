@@ -8,3 +8,7 @@ Nous utiliserons Spring Boot qui est assez robuste pour le développement des ap
 A RETENIR:
 
 Tomcat: Serveur des applications pour Java EE, il répond aux requetes http pour SPRING MVC
+
+Changer le port du serveur: 
+   - Aller dans application.properties
+   -  Puis faire server.port =  nombre > 1040 pour votre port
