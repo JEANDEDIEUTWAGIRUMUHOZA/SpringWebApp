@@ -12,3 +12,11 @@ Tomcat: Serveur des applications pour Java EE, il répond aux requetes http pour
 Changer le port du serveur: 
    - Aller dans application.properties
    -  Puis faire server.port =  nombre > 1040 pour votre port
+   
+   Vous pouvez le faire avec un fichier .yml
+       application.yml
+       
+       puis :
+       
+       server:
+         port:numéroDePort
